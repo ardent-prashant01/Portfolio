@@ -6,7 +6,7 @@ const projectCardData = [
   {
     imgsrc: proj01,
     title: "Residenz Website",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sit fugit nulla ullam laborum provident veniam eligendi asperiores adipisci, doloribus qui quia inventore est quis sint assumenda, itaque illum maiores.",
+    desc: "A fully responsive web application built with HTML, CSS, and JavaScript that replicates the core design and functionality of Airbnb. The platform allows users to explore listings, view property details, and experience a seamless booking-like interface.",
     view: "https://www.google.com",
     source: "https://www.google.com",
   },

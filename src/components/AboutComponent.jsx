@@ -2,6 +2,7 @@ import React from "react";
 import photo1 from "../assets/photo01.png";
 import proj01 from "../assets/proj01.jpg";
 import "./AboutComponent.css";
+import { Link } from "react-router-dom";
 export default function AboutComponent() {
   return (
     <div className="about">
@@ -11,9 +12,9 @@ export default function AboutComponent() {
           I am a MERN stack developer. I create responsive, secure websites for
           my clients.
         </p>
-        <a href="/contact">
+        <Link to="/contact">
           <button className="btn">CONTACT</button>
-        </a>
+        </Link>
       </div>
       <div className="right">
         <div className="img-container">

@@ -1,5 +1,6 @@
 import "./Workcard.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function WorkCard(props) {
   return (
@@ -9,12 +10,12 @@ export default function WorkCard(props) {
       <div className="pro-detail">
         <p>{props.desc}</p>
         <div className="pro-btn">
-          <a href={props.view} className="btn">
+          <Link to={props.view} className="btn">
             VIEW
-          </a>
-          <a href={props.source} className="btn">
+          </Link>
+          <Link to={props.source} className="btn">
             SOURCE
-          </a>
+          </Link>
         </div>
       </div>
     </div>

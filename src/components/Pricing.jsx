@@ -1,5 +1,5 @@
 import "./Pricing.css";
-
+import { Link } from "react-router-dom";
 import React from "react";
 
 export default function Pricing() {
@@ -14,9 +14,9 @@ export default function Pricing() {
           <p>- 3 Pages-</p>
           <p>- Featured-</p>
           <p>- Responsive Design-</p>
-          <a href="/contact" className="btn">
+          <Link to="/contact" className="btn">
             PURCHASE NOW
-          </a>
+          </Link>
         </div>
         <div className="card">
           <h2>- Premium -</h2>
@@ -26,9 +26,9 @@ export default function Pricing() {
           <p>- 5 Pages-</p>
           <p>- Featured-</p>
           <p>- Responsive Design-</p>
-          <a href="/contact" className="btn">
+          <Link to="/contact" className="btn">
             PURCHASE NOW
-          </a>
+          </Link>
         </div>
         <div className="card">
           <h2>- Bussiness -</h2>
@@ -38,9 +38,9 @@ export default function Pricing() {
           <p>- 8 Pages-</p>
           <p>- Featured-</p>
           <p>- Responsive Design-</p>
-          <a href="/contact" className="btn">
+          <Link to="/contact" className="btn">
             PURCHASE NOW
-          </a>
+          </Link>
         </div>
       </div>
     </div>

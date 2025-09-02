@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import maskImg from "../assets/photo01.png";
+import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <div className="hero">
@@ -11,12 +12,12 @@ export default function Hero() {
         <p>Hi, I'm Prashant.</p>
         <h1>Software Developer.</h1>
         <div className="button">
-          <a href="/projects" className="btn">
+          <Link to="/projects" className="btn">
             Project
-          </a>
-          <a href="/contact" className="btn btn-light">
+          </Link>
+          <Link to="/contact" className="btn btn-light">
             Contact
-          </a>
+          </Link>
         </div>
         <div></div>
       </div>
